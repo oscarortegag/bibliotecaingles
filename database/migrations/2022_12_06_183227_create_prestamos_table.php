@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('comentario');
             $table->tinyInteger('finalizado')->default(0);
             $table->timestamp('fecha_prestamo')->useCurrent();
+            $table->timestamp('fecha_final')->useCurrent();
             $table->timestamp('fecha_devolucion')->nullable();
             $table->tinyInteger('urgencia')->nullable()->comment('0: no es urgente, 1: Urgencia normal, 2: Muy urgente');
             $table->softDeletes();

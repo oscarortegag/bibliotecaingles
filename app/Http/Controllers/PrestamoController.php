@@ -55,6 +55,7 @@ class PrestamoController extends Controller
         $libro = Libros_frances::findOrFail($request->libro_id);
         $libro->prestamo()->create([
             'fecha_prestamo' => $request->fecha_prestamo,
+            'fecha_final' =>$request->fecha_final,
             'comentario' => $request->comentario,
             'usuario_id' => auth()->user()->id
         ]);

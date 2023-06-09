@@ -26,7 +26,8 @@ class validacionPrestamo extends FormRequest
         return [
             'libro_id' =>'required|integer',
             'comentario'=>'required|max:255',
-            'fecha_prestamo' => 'required|date_format:Y-m-d\TH:i'
+            'fecha_prestamo' => 'required|date_format:Y-m-d\TH:i',
+            'fecha_final' => 'required|date_format:Y-m-d\TH:i'
         ];
     }
 }

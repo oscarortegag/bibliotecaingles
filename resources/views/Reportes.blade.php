@@ -8,6 +8,11 @@
 
 @section('content')
 
+<style type="text/css">
+    [class*=sidebar-dark-] {
+    background-color:#00ab84;
+}
+    </style>
 
 <section class="content">
 

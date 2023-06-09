@@ -9,6 +9,13 @@
 
 
 @section('content')
+
+<style type="text/css">
+    [class*=sidebar-dark-] {
+    background-color:#00ab84;
+}
+    </style>
+
 <table class="table table-bordered">
 <thead>
 <tr>

@@ -11,8 +11,18 @@
 
 @section('content')
 
+<style type="text/css">
+    [class*=sidebar-dark-] {
+    background-color:#00ab84;
+}
+    </style>
 
-
+<style type="text/css">
+   .login-page, .register-page {
+ 
+    background-color: #28a745;
+   }
+    </style>
 
 <tbody>
 <div class="row">
@@ -42,8 +52,10 @@
 <tr>
 <th>Titulo</th>
 <th>Prestado a</th>
+<th>Matricula</th>
 <th>Motivo</th>
 <th>Fecha Prestamo</th>
+<th>Fecha Final</th>
 <th>Fecha devolucion</th>
 <th>Acciones</th>
 </tr>
@@ -59,10 +71,16 @@
        {{$data->usuario->name }}
     </td>
     <td>
+    
+</td>
+    <td>
        {{$data->comentario }}
     </td>
     <td>
        {{$data->fecha_prestamo }}
+    </td>
+    <td>
+       {{$data->fecha_final }}
     </td>
     <td class="fecha-devolucion">{{$data->fecha_devolucion ?? 'Prestado'}}
 

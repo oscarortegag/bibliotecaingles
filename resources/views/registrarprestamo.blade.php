@@ -8,7 +8,11 @@
 
 @section('content')
 
-
+<style type="text/css">
+    [class*=sidebar-dark-] {
+    background-color:#00ab84;
+}
+    </style>
 
 
 <div class="card card-primary">
@@ -31,15 +35,32 @@
 </div>
   
 <div class="form-group">
-<label for="editorialfrances">Comentario</label>
-<input type="text" name="comentario" class="form-control" id="comentario" placeholder="Ingrese motivo de prestamo" required/>
-</div> 
+<label>Comentario</label>
+<select name="comentario" class="form-control" id="comentario" name="comentario" required>
+<option>Estudio</option>
+<option>Consulta</option>
+<option>Resolver ejercicios</option>
+<option>Planeacion</option>
+<option>Clase</option>
+<option>Reforzamiento</option>
+
+</select>
+</div>
+</div>
 
 <label>Fecha de prestamo</label>
 <div class="input-group">
 <div class="input-group-prepend">
 <span class="input-group-text"><i class="far fa-clock"></i></span>
 <input type="datetime-local" class="form-control float-right" id="fecha_prestamo" name="fecha_prestamo" required/>
+</div>
+</div>
+
+<label>Fecha final de prestamo</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text"><i class="far fa-clock"></i></span>
+<input type="datetime-local" class="form-control float-right" id="fecha_final" name="fecha_final" required/>
 </div>
 </div>
 

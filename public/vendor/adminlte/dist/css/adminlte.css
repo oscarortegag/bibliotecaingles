@@ -12862,21 +12862,21 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 [class*="sidebar-dark-"] {
-  background-color: #343a40;
+  background-color: #28a745;
 }
 
 [class*="sidebar-dark-"] .user-panel a:hover {
-  color: #fff;
+  color: #28a745;
 }
 
 [class*="sidebar-dark-"] .user-panel .status {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #c2c7d0;
+  color: #28a745;
 }
 
 [class*="sidebar-dark-"] .user-panel .status:hover, [class*="sidebar-dark-"] .user-panel .status:focus, [class*="sidebar-dark-"] .user-panel .status:active {
   background-color: rgba(247, 247, 247, 0.1);
-  color: #fff;
+  color: #28a745;
 }
 
 [class*="sidebar-dark-"] .user-panel .dropdown-menu {
@@ -12885,11 +12885,11 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 [class*="sidebar-dark-"] .user-panel .dropdown-item {
-  color: #212529;
+  color: #28a745;
 }
 
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:active {
-  color: #c2c7d0;
+  color: #28a745;
 }
 
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item.menu-open > .nav-link,
@@ -13619,7 +13619,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 
 [class*="sidebar-dark"] .form-control-sidebar,
 [class*="sidebar-dark"] .btn-sidebar {
-  background-color: #3f474e;
+  background-color: #28a745;
   border: 1px solid #56606a;
   color: white;
 }
